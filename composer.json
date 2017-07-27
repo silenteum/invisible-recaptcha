@@ -1,14 +1,8 @@
 {
-    "name": "albertcht/invisible-recaptcha",
+    "name": "silenteum/invisible-recaptcha",
     "description": "Invisible reCAPTCHA For Laravel.",
     "keywords": ["recaptcha", "no-captcha", "captcha", "invisible", "invisible-recaptcha", "laravel", "laravel5", "php"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Albert Chen",
-            "email": "albert.cht@gmail.com"
-        }
-    ],
     "require": {
         "php": ">=5.5.* || ^7.0",
         "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
@@ -20,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AlbertCht\\InvisibleReCaptcha\\": "src/"
+            "Silenteum\\InvisibleReCaptcha\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AlbertCht\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
+                "Silenteum\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
             ]
         }
     },
